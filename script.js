@@ -1,9 +1,11 @@
-alert("teste");
-var age = prompt("Vc se chama fernando?","");
 
-if (age=="Sim")
-    {
-        alert("Bicha!");
-    }
-else
-    {alert("Vc esta mentindo, Bicha mentirosa!")}
+var add = function(i,j)
+{
+    return i+j;
+};
+
+
+var x=add(1,2);
+var y=add (3,4);
+alert(x)
+output.innerHTML= x +" "+ y;
