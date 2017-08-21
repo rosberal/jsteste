@@ -1,11 +1,9 @@
 alert("teste");
-var age = Number(prompt("Qual a sua idade?",""));
+var age = prompt("Vc se chama fernando?","");
 
-var i
-var string=""
-for (i=1;i<age;i+1)
+if (age=="Sim")
     {
-        string +="Feliz Aniversario\n";
-            
+        alert("Bicha!");
     }
-alert(string)
+else
+    {alert("Vc esta mentindo, Bicha mentirosa!")}
